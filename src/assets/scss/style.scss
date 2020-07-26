@@ -92,10 +92,58 @@ header {
     }
 }
 
-section{
+section {
     margin-bottom: 70px;
+}
+
+.img-cover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.img-contain {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .card {
     height: 100%;
+
+    .tag {
+        z-index: 3;
+        font-size: 0.875rem;
+        background-color: $pink;
+        padding: 0.25rem 1.25rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: $white;
+        min-height: 30px;
+        border-radius: 0 15px;
+
+        span {
+            font-weight: 300;
+        }
+    }
+
+    .img-wrapper {
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 0.9375;
+    }
+
+    .meta-wrapper {
+        margin-top: 1rem;
+
+        h5 {
+            font-size: 1.125;
+            margin-bottom: 2px;
+        }
+
+        span {
+            font-size: .875rem;
+        }
+    }
 }
