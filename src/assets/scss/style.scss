@@ -194,16 +194,25 @@ section {
             justify-content: flex-end;
             flex-direction: column;
         }
-        &:hover{
+
+        &:hover {
             .meta-wrapper {
                 transform: translateY(-10px);
             }
+
             &::after {
                 transform: scale(1);
             }
-            .img-wrapper{
+
+            .img-wrapper {
                 transform: scale(1);
             }
         }
     }
+}
+
+.testimonial-hero,
+.testimonial-hero img {
+    width: 365px;
+    height: 500px;
 }
