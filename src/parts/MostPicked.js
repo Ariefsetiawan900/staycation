@@ -4,10 +4,7 @@ import Button from "../elements/Button";
 
 export default function MostPicked(props) {
   return (
-    <section
-      className="container"
-      ref={props.refMostPicked}
-    >
+    <section className="container" ref={props.refMostPicked}>
       <h4 className="mb-3">Most Picked</h4>
       <div className="container-grid">
         {props.data.map((item, index) => {
@@ -31,7 +28,7 @@ export default function MostPicked(props) {
                 <div className="meta-wrapper">
                   <Button
                     type="link"
-                    className="streched-link d-block text-white"
+                    className="stretched-link d-block text-white"
                     href={`/properties/${item._id}`}
                   >
                     <h5>{item.name}</h5>
