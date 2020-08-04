@@ -11,7 +11,7 @@ import iconCalendar from "../../../assets/images/icons/icon_calendar.svg";
 
 export default function Date(props) {
   const { value, placeholder, name } = props;
-  const { isShowed, setIsShowed } = useState(false);
+  const [isShowed, setIsShowed] = useState(false);
 
   const datePickerChange = (value) => {
     const target = {
@@ -37,12 +37,13 @@ export default function Date(props) {
       setIsShowed(false);
     }
   };
+
   const check = (focus) => {
     focus.indexOf(1) < 0 && setIsShowed(false);
   };
 
   const displayDate = `${value.startDate ? formatDate(value.startDate) : ""}${
-    value.endDate ? " -" + formatDate(value.endDate) : ""
+    value.endDate ? " - " + formatDate(value.endDate) : ""
   }`;
 
   return (
