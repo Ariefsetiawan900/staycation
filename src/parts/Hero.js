@@ -6,9 +6,9 @@ import formatNumber from "../utils/formatNumber";
 
 import ImageHero from "../assets/images/img-hero.jpg";
 import ImageHero_ from "../assets/images/img-hero-frame.jpg";
-import IconCities from "../assets/images/icons/icon_cities.svg";
-import IconTraveler from "../assets/images/icons/icon_traveler.svg";
-import IconTreasures from "../assets/images/icons/icon_treasures.svg";
+// import IconCities from "../assets/images/icons/icon_cities.svg";
+// import IconTraveler from "../assets/images/icons/icon_traveler.svg";
+// import IconTreasures from "../assets/images/icons/icon_treasures.svg";
 
 export default function Hero(props) {
   function showMostPicked() {
@@ -48,7 +48,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTraveler}
+                  src="../assets/images/icon-traveler.svg"
                   alt={`${props.data.travelers} Travelers`}
                 />
                 <h6 className="mt-3">
@@ -63,7 +63,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTreasures}
+                  src="../assets/images/icon-treasures.svg"
                   alt={`${props.data.treasures} Treasures`}
                 />
                 <h6 className="mt-3">
@@ -78,7 +78,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconCities}
+                  src="../assets/images/icon-cities.svg"
                   alt={`${props.data.cities} Cities`}
                 />
                 <h6 className="mt-3">
