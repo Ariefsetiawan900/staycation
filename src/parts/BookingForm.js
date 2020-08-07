@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 
 import Button from "../elements/Button";
 import { InputNumber, InputDate } from "../elements/Form";
-import { differenceInDays } from "date-fns";
+// import { differenceInDays } from "date-fns";
 
 export default class BookingForm extends Component {
   constructor(props) {
