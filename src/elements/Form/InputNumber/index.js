@@ -43,7 +43,7 @@ export default function Number(props) {
       onChange({
         target: {
           name: name,
-          value: +value + 1,
+          value: +value + 1, 
         },
       });
   };
