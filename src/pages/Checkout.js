@@ -16,7 +16,7 @@ import Payment from "../parts/Checkout/Payment";
 import Completed from "../parts/Checkout/Completed";
 
 import ItemDetails from "../json/itemDetails.json";
-import checkout from "../store/reducers/checkout";
+// import checkout from "../store/reducers/checkout";
 // import DetailPage from "./DetailPage";
 
 class Checkout extends Component {
