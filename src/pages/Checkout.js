@@ -69,9 +69,9 @@ class Checkout extends Component {
       .then(() => {
         nextStep();
       })
-      .catch((error) => {
-        console.log(error);
-      });
+      // .catch((error) => {
+      //   console.log(error);
+      // });
   };
 
   render() {
