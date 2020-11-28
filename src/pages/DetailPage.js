@@ -18,17 +18,21 @@ import { fetchPage } from "../store/actions/page";
 
 class DetailPage extends Component {
   componentDidMount() {
-    window.title = "Detail Page";
     window.scrollTo(0, 0);
 
     if (!this.props.page[this.props.match.params.id])
-      this.props.fetchPage(
-        `/detail-page/${this.props.match.params.id}`, this.props.match.params.id
-      );
+      this.props
+        .fetchPage(
+          `/detail-page/${this.props.match.params.id}`,
+          this.props.match.params.id
+        )
+        .then((response) => {
+          document.title = `Staycation | ${response.title}, ${response.city}`;
+        });
   }
   render() {
     const { page, match } = this.props;
-    console.log(page);
+    // console.log(page);
     if (!page[match.params.id]) return null;
     const breadcrumb = [
       { pageTitle: "Home", pageHref: "" },
@@ -66,7 +70,7 @@ class DetailPage extends Component {
 }
 
 const mapStateToProps = (state) => ({
-  page: state.page
+  page: state.page,
 });
 
 export default connect(mapStateToProps, { checkoutBooking, fetchPage })(

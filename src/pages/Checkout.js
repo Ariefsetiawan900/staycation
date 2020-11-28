@@ -15,7 +15,7 @@ import BookingInformation from "../parts/Checkout/BookingInformation";
 import Payment from "../parts/Checkout/Payment";
 import Completed from "../parts/Checkout/Completed";
 
-import ItemDetails from "../json/itemDetails.json";
+// import ItemDetails from "../json/itemDetails.json";
 // import checkout from "../store/reducers/checkout";
 // import DetailPage from "./DetailPage";
 import { submitBooking } from "../store/actions/checkout";
@@ -43,6 +43,7 @@ class Checkout extends Component {
   };
 
   componentDidMount() {
+    document.title = "Staycation | Checkout";
     window.scroll(0, 0);
   }
 
@@ -175,7 +176,7 @@ class Checkout extends Component {
                     type="link"
                     isBlock
                     isLight
-                    href={`/properties/${ItemDetails._id}`}
+                    href={`/properties/${checkout._id}`}
                   >
                     Cancel
                   </Button>

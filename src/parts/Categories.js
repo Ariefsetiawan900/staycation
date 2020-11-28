@@ -23,7 +23,7 @@ export default function Categories({ data }) {
                       {item.isPopular && (
                         <div className="tag">
                           Popular{" "}
-                          <span className="font-weight-light"> Choice</span>
+                          <span className="font-weight-light">Choice</span>
                         </div>
                       )}
                       <figure className="img-wrapper" style={{ height: 180 }}>
