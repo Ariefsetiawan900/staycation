@@ -5,7 +5,7 @@ import propTypes from "prop-types";
 export default function File(props) {
   const [FileName, setFileName] = useState("");
   const {
-    value,
+    // value,
     placeHolder,
     name,
     accept,
