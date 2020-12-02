@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import Button from "../elements/Button";
 import formatNumber from "../utils/formatNumber";
 
-import ImageHero from "../assets/images/img-hero.jpg";
+import ImageHero from "../assets/images/img-hero2.jpg";
 import ImageHero_ from "../assets/images/img-hero-frame.jpg";
 import IconCities from "../assets/images/icons/icon_cities.svg";
 import IconTraveler from "../assets/images/icons/icon_traveler.svg";
