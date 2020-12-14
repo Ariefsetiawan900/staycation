@@ -1,3 +1,42 @@
+# Staycation2020
+##### -  ScreenShot
+- Open This Website [` Link `](https://staycation2020.netlify.app/ "Link")
+##### 1. Landing Page
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61056688/102064735-43aea680-3e2a-11eb-976c-be98aa01058b.png"  alt="Landing Page" width="100%"/>
+<img src="https://user-images.githubusercontent.com/61056688/102065227-dc452680-3e2a-11eb-9ed8-bbfd9584af9d.png"  alt="Landing Page" width="100%"/>
+</p>
+
+##### 2. Detail Page
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61056688/102065999-d734a700-3e2b-11eb-9c5d-04bbcd9357ed.png"  alt="Detail Page" width="100%"/>
+<img src="https://user-images.githubusercontent.com/61056688/102066573-8f624f80-3e2c-11eb-8b9d-74c6a5b9f074.png"  alt="Detail Page" width="100%"/>
+</p>
+
+##### 3. Booking Page
+<p align="center">
+<img src="https://user-images.githubusercontent.com/61056688/102067252-6c846b00-3e2d-11eb-9ed8-c5a8be5d03f7.png"  alt="Detail Page" width="100%"/>
+<img src="https://user-images.githubusercontent.com/61056688/102067247-6b533e00-3e2d-11eb-9917-e8fe2aff1cbb.png"  alt="Detail Page" width="100%"/>
+<img src="https://user-images.githubusercontent.com/61056688/102067235-67bfb700-3e2d-11eb-924b-00396e1ad80a.png"  alt="Detail Page" width="100%"/>
+</p>
+
+
+## A. Introduction
+[Staycation2020](https://staycation2020.netlify.app/ "Staycation2020"),  an application for user who wants to Booking Hotel, Villa
+
+## B.  Requirements
+1. Install [`Github`](https://git-scm.com/downloads "Github")
+2. Instal [`Node Js`](https://nodejs.org/en/ "Node Js")
+
+## C. How To Install
+1. Open app's directory in CMD/CLI or Terminal.
+2. Download this Project or you can type git clone `https://github.com/Ariefsetiawan900/staycation.git`
+3. type `npm run start`
+4. Enjoy......:tw-1f60e: :tw-1f60e: :tw-1f60e: 
+
+------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
