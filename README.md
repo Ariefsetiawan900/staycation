@@ -1,6 +1,6 @@
 # Staycation2020
 ##### -  ScreenShot
-- Open This Website [` Link `](https://staycation2020.netlify.app/ "Link")
+- Open This Website click [**Here**](https://staycation2020.netlify.app/ "**Here**")
 ##### 1. Landing Page
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61056688/102064735-43aea680-3e2a-11eb-976c-be98aa01058b.png"  alt="Landing Page" width="100%"/>
@@ -25,14 +25,15 @@
 [Staycation2020](https://staycation2020.netlify.app/ "Staycation2020"),  an application for user who wants to Booking Hotel, Villa
 
 ## B.  Requirements
-1. Install [`Github`](https://git-scm.com/downloads "Github")
-2. Instal [`Node Js`](https://nodejs.org/en/ "Node Js")
+1. Install [Github](https://git-scm.com/downloads "Github")
+2. Instal [Node Js](https://nodejs.org/en/ "Node Js")
 
 ## C. How To Install
 1. Open app's directory in CMD/CLI or Terminal.
-2. Download this Project or you can type git clone `https://github.com/Ariefsetiawan900/staycation.git`
-3. type `npm run start`
-4. Enjoy......:tw-1f60e: :tw-1f60e: :tw-1f60e: 
+2. Download this Project or you can type :
+`git clone https://github.com/Ariefsetiawan900/staycation.git`
+3. type :  `npm run start`
+4. Enjoy......
 
 ------------
 
