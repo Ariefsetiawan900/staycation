@@ -32,8 +32,9 @@
 1. Open app's directory in CMD/CLI or Terminal.
 2. Download this Project or you can type :
 `git clone https://github.com/Ariefsetiawan900/staycation.git`
-3. type :  `npm run start`
-4. Enjoy......
+3. type :  `npm install`
+4. type :  `npm run start`
+5. Enjoy......
 
 ------------
 
